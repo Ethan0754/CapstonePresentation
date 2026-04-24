@@ -51,6 +51,7 @@ export const pages = {
     body: `
       <ul>
         <li>Installed plugins for protection, moderation, and community engagement.</li>
+        <li>Land claim and shop plugins</li>
         <li>Used GeyserMC to support cross-platform play.</li>
         <li>Dual-world setup: Survival and Creative.</li>
         <li>UCA in Minecraft</li>
@@ -71,7 +72,7 @@ export const pages = {
 
     <div class="slide-text">
         <ul>
-            <li>Oldenburg defines third places as spaces outside home and work where people gather informally.</li>
+            <li>Ray Oldenburg defines third places as spaces outside home and work where people gather informally.</li>
             <li>Examples include cafes, libraries, churches, and other recurring communal spaces.</li>
             <li>These spaces foster social interaction and community building.</li>
         </ul>
@@ -99,7 +100,7 @@ export const pages = {
   body: `
     <ul>
       <li>Suburbanization and weakened social infrastructure reduced access to informal gathering spaces.</li>
-      <li>Zoning separations and increased dependence on private vehicles limited opportunities for spontaneous interaction.</li>
+      <li>Zoning regulations and increased dependence on private vehicles limited opportunities for spontaneous interaction.</li>
       <li>What will we do about this decline in third places?</li>
     </ul>
   `,
@@ -111,7 +112,7 @@ export const pages = {
   type: "content",
   title: "Online Community",
   pageNumber: 1,
-  pageTotal: 4,
+  pageTotal: 7,
   body: `
     <div class="slide-layout image-bottom">
 
@@ -139,9 +140,76 @@ export const pages = {
 
 "community-2": {
   type: "content",
-  title: "Minecraft as an Online Community",
+  title: "What is Minecraft?",
   pageNumber: 2,
-  pageTotal: 4,
+  pageTotal: 7,
+  body: `
+    <div class="slide-layout image-bottom">
+
+      <div class="slide-text">
+        <ul>
+          <li>Minecraft is an open-world sandbox game.</li>
+          <li>Players can explore, build, and interact with others in a blocky 3D environment.</li>
+          <li>There are two main game modes: Survival and Creative.</li>
+          <li>"The End" is a dimension that is commonly attributed to the end of the game.</li>
+          <li>There are two main platforms: Java Edition and Bedrock Edition.</li>
+        </ul>
+      </div>
+    </div>
+  `,
+  prev: "community-1",
+  next: "community-3"
+},
+
+"community-3": {
+  type: "content",
+  title: "What is Minecraft?",
+  pageNumber: 3,
+  pageTotal: 7,
+  body: `
+    <div class="slide-layout image-full">
+
+      <div class="slide-media">
+        <img
+          src="/images/what-game-look-like.png"
+          alt="Survival player standing in a Minecraft world"
+          class="slide-image-full"
+        >
+      </div>
+
+    </div>
+  `,
+  prev: "community-2",
+  next: "community-4"
+},
+
+"community-4": {
+  type: "content",
+  title: "What is Minecraft?",
+  pageNumber: 4,
+  pageTotal: 7,
+  body: `
+    <div class="slide-layout image-full">
+
+      <div class="slide-media">
+        <img
+          src="/images/cool-boat.png"
+          alt="Building of a boat in Minecraft"
+          class="slide-image-full"
+        >
+      </div>
+
+    </div>
+  `,
+  prev: "community-3",
+  next: "community-5"
+},
+
+"community-5": {
+  type: "content",
+  title: "Minecraft as an Online Community",
+  pageNumber: 5,
+  pageTotal: 7,
   body: `
     <div class="slide-layout image-bottom">
 
@@ -163,24 +231,23 @@ export const pages = {
 
     </div>
   `,
-  prev: "community-1",
-  next: "community-3"
+  prev: "community-4",
+  next: "community-6"
 },
 
-"community-3": {
+"community-6": {
   type: "content",
   title: "Minecraft as an Social Tool",
-  pageNumber: 3,
-  pageTotal: 4,
+  pageNumber: 6,
+  pageTotal: 7,
   body: `
     <div class="slide-layout image-bottom">
 
       <div class="slide-text">
         <ul>
           <li>Minecraft is infinite.</li>
-          <li>Minecraft reaches across cultures, generations, distances, and time.</li>
+          <li>Minecraft reaches across college classes, graduation status, distances, and time.</li>
           <li>Minecraft is a tool for creativity and expression.</li>
-          <li>Civic Engagement</li>
           <li>Autcraft</li>
         </ul>
       </div>
@@ -195,15 +262,15 @@ export const pages = {
 
     </div>
   `,
-  prev: "community-2",
-  next: "community-4"
+  prev: "community-5",
+  next: "community-7"
 },
 
-"community-4": {
+"community-7": {
   type: "content",
   title: "Minecraft as Honors College Community",
-  pageNumber: 4,
-  pageTotal: 4,
+  pageNumber: 7,
+  pageTotal: 7,
   body: `
     <div class="slide-layout image-bottom">
 
@@ -211,7 +278,7 @@ export const pages = {
         <ul>
           <li>My goal was to create a space for meaningful social interaction.</li>
           <li>Uniquely serve alumni and upcoming freshman.</li>
-          <li>It would support relationships that span across time, distance, and life changes.</li>
+          <li>Minecraft would offer a unique space for creativity and expression that current GroupMe platform does not.</li>
           <li>How do you design for that?</li>
         </ul>
       </div>
@@ -226,7 +293,7 @@ export const pages = {
 
     </div>
   `,
-  prev: "community-3",
+  prev: "community-6",
   next: null
 },
 
@@ -252,7 +319,14 @@ export const pages = {
     pageNumber: 2,
     pageTotal: 3,
     body: `
-      <p>Put your shortened works cited or key sources here.</p>
+      <p>
+        Oldenburg, Ray. “Our Vanishing Third Places.” Planning Commissioners Journal, 1997.<br>
+        “Geyser.” GeyserMC. Accessed 20 Oct. 2024.<br>
+        Duncan, Sean C. “Minecraft, Beyond Construction and Survival.” 2011.<br>
+        Jeffres, Leo W., et al. “The Impact of Third Places on Community Quality of Life.” 2009.<br>
+        “Autcraft.” Autcraft. Accessed 20 Oct. 2024.<br>
+        Plant, Robert. “Online Communities.” Technology in Society, 2004.
+      </p>  
     `,
     prev: "conclusion-1",
     next: "thanks-1"
@@ -264,7 +338,7 @@ export const pages = {
     pageNumber: 3,
     pageTotal: 3,
     body: `
-      <p>Thank you! Questions?.</p>
+      <p>Thank you! Questions?</p>
     `,
     prev: "works-cited-1",
     next: null
@@ -275,7 +349,7 @@ export const pages = {
   type: "content",
   title: "Player Participation and Engagement",
   pageNumber: 1,
-  pageTotal: 4,
+  pageTotal: 6,
   body: `
     <div class="slide-layout image-bottom">
 
@@ -306,7 +380,52 @@ export const pages = {
   type: "content",
   title: "Ender Dragon Event",
   pageNumber: 2,
-  pageTotal: 4,
+  pageTotal: 6,
+  body: `
+    <div class="slide-layout image-bottom">
+
+      <div class="slide-text">
+        <ul>
+          <li>What is the Ender Dragon?</li>
+          <li>Players must work together to take out the healing pillars.</li>
+          <li>Only after the pillars are destroyed can the ender dragon be defeated.</li>
+          <li>The ender dragon represents a significant challenge for the community to overcome together.</li>
+        </ul>
+      </div>
+
+    </div>
+  `,
+  prev: "analysis-1",
+  next: "analysis-3"
+},
+
+"analysis-3": {
+  type: "content",
+  title: "Ender Dragon Event",
+  pageNumber: 3,
+  pageTotal: 6,
+  body: `
+    <div class="slide-layout image-full">
+
+      <div class="slide-media">
+        <img
+          src="/images/ender-dragon.png"
+          alt="Building of a boat in Minecraft"
+          class="slide-image-full"
+        >
+      </div>
+
+    </div>
+  `,
+  prev: "analysis-2",
+  next: "analysis-4"
+},
+
+"analysis-4": {
+  type: "content",
+  title: "Ender Dragon Event",
+  pageNumber: 4,
+  pageTotal: 6,
   body: `
     <div class="slide-layout image-bottom">
 
@@ -329,15 +448,15 @@ export const pages = {
 
     </div>
   `,
-  prev: "analysis-1",
-  next: "analysis-3"
+  prev: "analysis-3",
+  next: "analysis-5"
 },
 
-"analysis-3": {
+"analysis-5": {
   type: "content",
   title: "Ender Dragon Event",
-  pageNumber: 3,
-  pageTotal: 4,
+  pageNumber: 5,
+  pageTotal: 6,
   body: `
     <div class="slide-layout image-full">
 
@@ -351,23 +470,24 @@ export const pages = {
 
     </div>
   `,
-  prev: "analysis-2",
-  next: "analysis-4"
+  prev: "analysis-4",
+  next: "analysis-6"
 },
 
-    "analysis-4": {
-    type: "content",
-    title: "In-Game Usernames",
-    pageNumber: 4,
-    pageTotal: 4,
-    body: `
-      <ul>
-        <li>A unique aspect of Minecraft that I did not anticipate - the use of in-game usernames.</li>
-        <li>This added a layer of anonymity to the interactions.</li>
-        <li>Some players used their real names, while others preferred pseudonyms.</li>
-      </ul>
-    `,
-    prev: "analysis-3",
-    next: null
-  },
+  "analysis-6": {
+  type: "content",
+  title: "In-Game Usernames",
+  pageNumber: 6,
+  pageTotal: 6,
+  body: `
+    <ul>
+      <li>A unique aspect of Minecraft that I did not anticipate - the use of in-game usernames.</li>
+      <li>This added a layer of anonymity to the interactions.</li>
+      <li>Some players used their real names, while others preferred pseudonyms.</li>
+      <li>Anonymity goes against Ray Oldenburg's principles for third places, but it offered a unique aspect to the social dynamics of the server.</li>
+    </ul>
+  `,
+  prev: "analysis-5",
+  next: null
+},
 };
